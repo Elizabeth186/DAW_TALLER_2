@@ -1,0 +1,29 @@
+
+img{
+    width: 10em;
+}
+table{
+  margin-left: 20em;
+}
+td{
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:orangered;
+}
+#camp_text{
+margin-left: 14em;
+}
+h5{
+    text-align: center;
+}
+#pepg {
+    width: 5em;
+}
+#boton{
+    margin-left: 38em;
+    background: chartreuse;
+    
+}

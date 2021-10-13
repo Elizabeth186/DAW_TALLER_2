@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="compra.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="compra.js"></script>
+    <title>Restaurante</title>
+</head>
+<body background="img/fon.png">
+    <h1>POLLO DELIS</h1>
+
+    
+    
+<form name="miform" id="miform">
+    <div id="tabla">
+    <table cellspacing="10" cellpadding="10">
+        <td><h4>Combos:</h4></td>
+        <tr>
+           
+        <td>
+            <img src="img/cs.jfif" alt=""><br>
+            <input name="id" id="check" type="radio" value="7.25" onclick="sumar()" /><br>
+            <label>Combo Super</label>
+            <p>$7.25</p>
+        </td>
+        <td>
+            <img src="img/cp.jpg" alt=""><br>
+            <input name="id" id="check" type="radio" value="5.75" onclick="sumar()" /><br>
+          <label>Combo Personal</label>
+          <p>$5.75</p>
+        </td>
+        <td>
+            <img src="img/ci.jfif" alt=""><br>
+            <input name="id" id="check" type="radio" value="3.50" onclick="sumar()" /><br>
+            <label>Combo Infantil</label>
+            <p>$3.50</p>
+        </td>
+    </tr>
+        <th><h4>Productos</h4></th>
+        <tr>
+
+            <td>
+            <img src="img/en.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.50" onclick="sumar()" />
+            <label>Ensalada</label>
+            <p>$1.50</p>
+           </td>
+           <td>
+            <img src="img/pap.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.25" onclick="sumar()" />
+            <label>Papa Frita</label>
+            <p>$1.25</p>
+        </td>
+        <td>
+            <img src="img/pg.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.75" onclick="sumar()" />
+            <label>Pieza Grande de Pollo</label>
+            <p>$1.75</p>
+        </td>
+        <td>
+            <img src="img/pm.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.50" onclick="sumar()" />
+            <label>Pieza de Pollo Mediana</label>
+            <p>$1.50</p>
+        </td>
+        <td>
+            <img src="img/pp.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.25" onclick="sumar()" />
+            <label>Pieza de Pollo pequeña</label>
+            <p>$1.25</p>
+        </td></tr>
+        <tr>
+        <td>
+            <img src="img/pepg.jfif" id="pepg" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.50" onclick="sumar()" />
+            <label> Bebida Grande</label>
+            <p>$1.50</p>
+        </td>
+        <td>
+            <img src="img/pepm.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.25" onclick="sumar()" />
+            <label>Bebida Mediana</label>
+            <p>$1.25</p>
+        </td>
+        <td>
+            <img src="img/pepp.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.00" onclick="sumar()" />
+            <label>Bebida pequeña</label>
+            <p>$1.00</p>
+        </td>
+        <td>
+            <img src="img/cafe.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="0.50" onclick="sumar()" />
+            <label>Cafe</label>
+            <p>$0.50</p>
+        </td>
+        <td>
+            <img src="img/postre.jfif" alt=""><br>
+            <input name="id" id="check" type="checkbox" value="1.25" onclick="sumar()" />
+            <label>Postre</label>
+            <p>$1.25</p>
+        </td>
+       </tr>
+       
+    </table>
+    </div>
+    <h5>Deje un comentario</h5>
+        <div id="comen">
+            <textarea name="camp_text" id="camp_text" cols="150" rows="8" disabled="true"></textarea>
+        </div>
+</form>
+<div id="informacion">
+    <h1>TOTAL: 0</h1></div>
+
+   <input type="button" onclick="alert('Compra Exitosa')" value="REALIZAR COMPRA" id="boton">
+
+</body>
+</html>
